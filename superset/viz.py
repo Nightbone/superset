@@ -67,7 +67,7 @@ from superset.extensions import cache_manager, security_manager
 from superset.models.cache import CacheKey
 from superset.models.helpers import QueryResult
 from superset.typing import Metric, QueryObjectDict, VizData, VizPayload
-from superset.utils import core as utils, csv
+from superset.utils import core as utils, csv_util
 from superset.utils.cache import set_and_log_cache
 from superset.utils.core import (
     DTTM_ALIAS,

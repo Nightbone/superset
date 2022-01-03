@@ -20,7 +20,7 @@ import io
 import pandas as pd
 import pytest
 
-from superset.utils import csv
+from superset.utils import csv_util
 
 
 def test_escape_value():

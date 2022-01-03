@@ -38,7 +38,7 @@ from superset.constants import CacheRegion
 from superset.exceptions import QueryObjectValidationError, SupersetException
 from superset.extensions import cache_manager, security_manager
 from superset.models.helpers import QueryResult
-from superset.utils import csv
+from superset.utils import csv_util
 from superset.utils.cache import generate_cache_key, set_and_log_cache
 from superset.utils.core import (
     ChartDataResultFormat,

@@ -65,7 +65,7 @@ from superset.reports.notifications.base import NotificationContent
 from superset.reports.notifications.exceptions import NotificationError
 from superset.utils.celery import session_scope
 from superset.utils.core import ChartDataResultFormat, ChartDataResultType
-from superset.utils.csv import get_chart_csv_data
+from superset.utils.csv_util import get_chart_csv_data
 from superset.utils.screenshots import (
     BaseScreenshot,
     ChartScreenshot,
